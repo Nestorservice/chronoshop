@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    @apply h-full;
+    -webkit-tap-highlight-color: transparent;
+  }
+
+  #root {
+    @apply flex flex-col h-full;
+  }
+
+  body {
+    @apply text-sm bg-gray-100 text-gray-600 h-full;
+  }
+  .custom-scrollbar::-webkit-scrollbar {
+    width: 8px;
+  }
+  .custom-scrollbar::-webkit-scrollbar-thumb {
+    background: #c4d7ef;
+    border-radius: 10px;
+  }
+  .custom-scrollbar::-webkit-scrollbar-thumb:hover {
+    background: #90b9f1;
+  }
+  
+}

@@ -1,0 +1,54 @@
+{
+  "short_name": "ChronoShop",
+  "name": "Application de courses ChronoShop",
+  "description": "Application de courses simple et intuitive pour vous aider à gérer vos achats.",
+  "icons": [
+    {
+      "src": "icon-512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    },
+    {
+      "src": "icon-192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "icon-maskable-512.png",
+      "type": "image/png",
+      "sizes": "512x512",
+      "purpose": "maskable"
+    }
+  ],
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "theme_color": "#6366f1",
+  "background_color": "#ffffff",
+  "screenshots": [
+    {
+      "src": "screenshots/empty-list-view.png",
+      "sizes": "800x1600",
+      "type": "image/png",
+      "label": "Commencez à créer votre première liste depuis l’écran d’accueil."
+    },
+    {
+      "src": "screenshots/list-view.png",
+      "sizes": "800x1600",
+      "type": "image/png",
+      "label": "L’écran d’accueil vous permet de gérer autant de listes de courses que vous le souhaitez."
+    },
+    {
+      "src": "screenshots/form-list.png",
+      "sizes": "800x1600",
+      "type": "image/png",
+      "label": "Créez autant d’articles que vous voulez par liste de courses."
+    },
+    {
+      "src": "screenshots/items-checked-unchecked.png",
+      "sizes": "800x1600",
+      "type": "image/png",
+      "label": "Cochez/décochez les articles de votre liste pour suivre votre progression."
+    }
+  ]
+}
